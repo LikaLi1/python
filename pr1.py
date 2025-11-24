@@ -46,3 +46,22 @@ print(number.isdigit()) # проверяет состоит ли строка т
 number = int(number)
 print(number + 100)
 print(number.isalpha())
+
+name = "VASilisa"
+print(name.swapcase())
+print(len(name))
+
+print(name.lower())
+
+name_2 = "Eva"
+# print(name_2.upper())
+name_3 = "Eva"
+print(name_2 == name_3)
+
+phone = "+1-234-567-8900"
+print(phone.startswith("+"))
+print(phone.startswith("-"))
+print(phone.startswith("*"))
+print(phone.endswith("00"))
+print(phone.find("-"))
+print(phone[::-1])
