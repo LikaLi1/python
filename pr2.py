@@ -41,3 +41,18 @@ for i in range(10, -1, -1):
 while age < 18:
   age += 1
 print(age)
+
+number_1 = int(input("Enter a number: "))
+number_2 = int(input("Enter another number: "))
+opertor = int(input("Enter opertor: "))
+
+if opertor == "+":
+  print(f'Сумма чисел равно: {number_1 + number_2}')
+if opertor == "-":
+  print(f'Разница чисел равна: {number_1 - number_2}')
+if opertor == "*":
+  print(f'Произведение чисел равно: {number_1 * number_2}')
+if opertor == "/":
+  print(f'Деление чисел равно: {number_1 / number_2}')
+
+# print(eval(input('>>>'))) калькулятор в одну строку
